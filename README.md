@@ -18,11 +18,11 @@ At IBM Research Haifa, I work on multimodal learning and document understanding.
 
 ## Explore my work
 
-### [Token Maturation](https://github.com/OshriNap/Token-maturation)
+### [Projected Autoregression / Token Maturation](https://github.com/OshriNap/Token-maturation)
 
 **What if a language model could refine a token before committing to it?**
 
-An exploration of autoregressive generation in continuous embedding space. A “liquid tail” of token vectors undergoes iterative refinement before discrete projection, separating prediction from commitment.
+Autoregressive language generation through continuous prediction in embedding space, with discrete tokens produced by projection at commitment time. An optional “liquid tail” allows local refinement before commitment. Originally introduced as Token Maturation.
 
 [Paper](https://arxiv.org/abs/2601.04854) · [Project & generation demos](https://oshrinap.github.io/Token-maturation/)
 
